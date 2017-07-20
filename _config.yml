@@ -14,10 +14,10 @@ customize:
         enabled: true
         width: 40
         height: 40
-        url: images/logo.png
+        url: images/tbf-icon.svg
     profile:
         enabled: true # Whether to show profile bar
-        avatar: css/images/avatar.png
+        avatar: css/images/tbf-icon.svg
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
         author: 技術書典
         author_title: 技術書のお祭り！
