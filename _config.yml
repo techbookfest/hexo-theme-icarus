@@ -1,9 +1,10 @@
 # Menus
 menu:
-  Blog: .
+  # Blog: .
   Archives: archives
-  Official: https://techbookfest.org/
-  サークル参加する！: https://techbookfest.org/event/tbf03#requirements
+  # Official: https://techbookfest.org/
+  サークル参加😺: https://techbookfest.org/event/tbf03#requirements
+  技術書典3 10/22: https://techbookfest.org/event/tbf03
   # Categories: categories
   # Tags: tags
   # About: about
@@ -21,7 +22,7 @@ customize:
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
         author: 技術書典
         author_title: 技術書のお祭り！
-        location: 秋葉原UDX 2F アキバ・スクエア
+        location: 10/22 秋葉原UDX 2F アキバ・スクエア
         follow: https://twitter.com/techbookfest/
     highlight: monokai
     sidebar: right # sidebar position, options: left, right or leave it empty
@@ -32,7 +33,7 @@ customize:
         twitter: twitter.com/techbookfest/
         # facebook: /
         # dribbble: /
-        rss: / # TODO
+        rss: /atom.xml
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 
 # Widgets
