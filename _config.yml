@@ -30,7 +30,7 @@ customize:
     favicon: # path to favicon
     social_links:
         # github: http://github.com/ppoffice/hexo-theme-icarus
-        twitter: twitter.com/techbookfest/
+        twitter: https://twitter.com/techbookfest/
         # facebook: /
         # dribbble: /
         rss: /atom.xml
