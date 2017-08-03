@@ -27,7 +27,7 @@ customize:
     highlight: monokai
     sidebar: right # sidebar position, options: left, right or leave it empty
     thumbnail: false # enable posts thumbnail, options: true, false
-    favicon: # path to favicon
+    favicon: css/images/favicon.ico
     social_links:
         # github: http://github.com/ppoffice/hexo-theme-icarus
         twitter: https://twitter.com/techbookfest/
