@@ -3,8 +3,8 @@ menu:
   # Blog: .
   Archives: archives
   # Official: https://techbookfest.org/
-  サークル参加😺: https://techbookfest.org/event/tbf05#requirements
-  技術書典5 10/08: https://techbookfest.org/event/tbf05
+  サークル参加😺: https://techbookfest.org/event/tbf06#requirements
+  技術書典6 4/14: https://techbookfest.org/event/tbf06
   # Categories: categories
   # Tags: tags
   # About: about
@@ -22,7 +22,7 @@ customize:
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
         author: 技術書典
         author_title: 技術書のお祭り！
-        location: 10/08 サンシャインシティ 文化会館ビル2F 展示ホールD
+        location: 4/14 サンシャインシティ 文化会館ビル2F 展示ホールD
         follow: https://twitter.com/techbookfest/
     highlight: monokai
     sidebar: right # sidebar position, options: left, right or leave it empty
@@ -89,6 +89,7 @@ miscellaneous:
         google_plus:
     links:
         公式サイト: https://techbookfest.org/
+        技術書典5: https://techbookfest.org/event/tbf06
         技術書典5: https://techbookfest.org/event/tbf05
         技術書典4: https://techbookfest.org/event/tbf04
         技術書典3: https://techbookfest.org/event/tbf03
