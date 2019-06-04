@@ -5,7 +5,8 @@ favicon: /images/tbf-icon.svg
 # Path or URL to RSS atom.xml
 rss: /atom.xml
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer
-logo: /images/tbf-icon.svg
+logo:
+    text: 技術書典公式ブログ
 # Open Graph metadata
 # https://hexo.io/docs/helpers.html#open-graph
 open_graph:
@@ -32,7 +33,7 @@ navbar:
         # About: /about
     # Navigation bar links to be shown on the right
     links:
-        公式サイト: https://techbookfest.org/
+        # 公式サイト: https://techbookfest.org/
         # Download on GitHub:
         #     icon: fab fa-github
         #     url: 'https://github.com/ppoffice/hexo-theme-icarus'
@@ -199,7 +200,7 @@ widgets:
 # Other plugin settings
 plugins:
     # Enable page animations
-    animejs: true
+    animejs: false
     # Enable the lightGallery and Justified Gallery plugins
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/gallery-plugin/
     gallery: true
