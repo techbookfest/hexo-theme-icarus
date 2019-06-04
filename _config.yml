@@ -1,99 +1,244 @@
-# Menus
-menu:
-  # Blog: .
-  Archives: archives
-  # Official: https://techbookfest.org/
-  サークル参加😺: https://techbookfest.org/event/tbf07#requirements
-  技術書典7 9/22: https://techbookfest.org/event/tbf07
-  # Categories: categories
-  # Tags: tags
-  # About: about
-
-# Customize
-customize:
-    logo:
-        enabled: false
-        width: 40
-        height: 40
-        url: images/tbf-icon.svg
-    profile:
-        enabled: true # Whether to show profile bar
-        avatar: css/images/tbf-icon.svg
-        gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-        author: 技術書典
-        author_title: 技術書のお祭り！
-        location: 9/22 サンシャインシティ 文化会館ビル2/3F 展示ホールC/D
-        follow: https://twitter.com/techbookfest/
-    highlight: monokai
-    sidebar: right # sidebar position, options: left, right or leave it empty
-    thumbnail: false # enable posts thumbnail, options: true, false
-    favicon: css/images/favicon.ico
-    social_links:
-        # github: http://github.com/ppoffice/hexo-theme-icarus
-        twitter: https://twitter.com/techbookfest/
-        # facebook: /
-        # dribbble: /
-        rss: /atom.xml
-    social_link_tooltip: true # enable the social link tooltip, options: true, false
-
-# Widgets
-widgets:
-    - recent_posts
-    - category
-    - archive
-    - tag
-    - tagcloud
-    - links
-
-# Search
-search:
-    insight: true # you need to install `hexo-generator-json-content` before using Insight Search
-    swiftype: # enter swiftype install key here
-    baidu: false # you need to disable other search engines to use Baidu search, options: true, false
-
-# Comment
-comment:
-    disqus: # enter disqus shortname here
-    duoshuo: # enter duoshuo shortname here
-    youyan: # enter youyan uid here
-    facebook: # enter true to enable
-    isso: # enter the domain name of your own comment isso server eg. comments.example.com
-    changyan: # please fill in `appid` and `conf` to enable
-        appid:
-        conf:
-    gitment:
-        owner: #your github ID
-        repo: #the repo to store comments
-        #Register an OAuth application, and you will get a client ID and a client secret.
-        client_id: #your client ID
-        client_secret: #your client secret
-
-# Share
-share: default # options: jiathis, bdshare, addtoany, default
-
-# Plugins
-plugins:
-    lightgallery: false # options: true, false
-    justifiedgallery: false # options: true, false
-    google_analytics: UA-75502922-3
-    google_site_verification: # enter Google site verification code
-    baidu_analytics: # enter Baidu Analytics hash key
-    mathjax: false # options: true, false
-
-# Miscellaneous
-miscellaneous:
-    open_graph: # see http://ogp.me
-        fb_app_id:
-        fb_admins:
-        twitter_id: techbookfest
-        google_plus:
+# Version of the Icarus theme that is currently used
+version: 2.3.0
+# Path or URL to the website's icon
+favicon: /images/tbf-icon.svg
+# Path or URL to RSS atom.xml
+rss: /atom.xml
+# Path or URL to the website's logo to be shown on the left of the navigation bar or footer
+logo: /images/tbf-icon.svg
+# Open Graph metadata
+# https://hexo.io/docs/helpers.html#open-graph
+open_graph:
+    # Facebook App ID
+    # fb_app_id: 
+    # Facebook Admin ID
+    # fb_admins: 
+    # Twitter ID
+    twitter_id: techbookfest
+    # Twitter site
+    twitter_site: https://techbookfest.org/
+    # Google+ profile link
+    # google_plus: 
+# Navigation bar link settings
+navbar:
+    # Navigation bar menu links
+    menu:
+        # Home: /
+        Archives: /archives
+        サークル参加😺: https://techbookfest.org/event/tbf07#requirements
+        技術書典7 9/22: https://techbookfest.org/event/tbf07
+        # Categories: /categories
+        # Tags: /tags
+        # About: /about
+    # Navigation bar links to be shown on the right
     links:
         公式サイト: https://techbookfest.org/
-        技術書典7: https://techbookfest.org/event/tbf07
-        技術書典6: https://techbookfest.org/event/tbf06
-        技術書典5: https://techbookfest.org/event/tbf05
-        技術書典4: https://techbookfest.org/event/tbf04
-        技術書典3: https://techbookfest.org/event/tbf03
-        超技術書典: https://techbookfest.org/event/cho01
-        技術書典2: https://techbookfest.org/event/tbf02
-        技術書典: https://techbookfest.org/tbf01
+        # Download on GitHub:
+        #     icon: fab fa-github
+        #     url: 'https://github.com/ppoffice/hexo-theme-icarus'
+# Footer section link settings
+footer:
+    # Links to be shown on the right of the footer section
+    links:
+        # Creative Commons:
+        #     icon: fab fa-creative-commons
+        #     url: 'https://creativecommons.org/'
+        # Attribution 4.0 International:
+        #     icon: fab fa-creative-commons-by
+        #     url: 'https://creativecommons.org/licenses/by/4.0/'
+        # Download on GitHub:
+        #     icon: fab fa-github
+        #     url: 'https://github.com/ppoffice/hexo-theme-icarus'
+# Article display settings
+article:
+    # Code highlight theme
+    # https://github.com/highlightjs/highlight.js/tree/master/src/styles
+    highlight: atom-one-light
+    # Whether to show article thumbnail images
+    thumbnail: false
+    # Whether to show estimate article reading time
+    readtime: false
+# Search plugin settings
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search
+search:
+    # Name of the search plugin
+    type: insight
+# Comment plugin settings
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment
+comment:
+    # Name of the comment plugin
+    type: 
+# Donation entries
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
+donate:
+    # -
+    #     # Donation entry name
+    #     type: alipay
+    #     # Qrcode image URL
+    #     qrcode: ''
+    # -
+    #     # Donation entry name
+    #     type: wechat
+    #     # Qrcode image URL
+    #     qrcode: ''
+    # -
+    #     # Donation entry name
+    #     type: paypal
+    #     # Paypal business ID or email address
+    #     business: ''
+    #     # Currency code
+    #     currency_code: USD
+    # -
+    #     # Donation entry name
+    #     type: patreon
+    #     # URL to the Patreon page
+    #     url: ''
+# Share plugin settings
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share
+share:
+    # Share plugin name
+    type: 
+# Sidebar settings.
+# Please be noted that a sidebar is only visible when it has at least one widget
+sidebar:
+    # left sidebar settings
+    left:
+        # Whether the left sidebar is sticky when page scrolls
+        # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/make-a-sidebar-sticky-when-page-scrolls/
+        sticky: false
+    # right sidebar settings
+    right:
+        # Whether the right sidebar is sticky when page scrolls
+        # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/make-a-sidebar-sticky-when-page-scrolls/
+        sticky: false
+# Sidebar widget settings
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
+widgets:
+    -
+        # Widget name
+        type: profile
+        # Where should the widget be placed, left or right
+        position: left
+        # Author name to be shown in the profile widget
+        author: 技術書典
+        # Title of the author to be shown in the profile widget
+        author_title: 運営事務局
+        # Author's current location to be shown in the profile widget
+        location: 9/22 サンシャインシティ # 文化会館ビル2/3F 展示ホールC/D
+        # Path or URL to the avatar to be shown in the profile widget
+        avatar: /css/images/tbf-icon.svg
+        # Email address for the Gravatar to be shown in the profile widget
+        # gravatar: 
+        # Whether to show avatar image rounded or square
+        avatar_rounded: false
+        # Path or URL for the follow button
+        follow_link: 'https://twitter.com/techbookfest/'
+        # Links to be shown on the bottom of the profile widget
+        social_links:
+            # Github:
+            #     icon: fab fa-github
+            #     url: 'https://github.com/ppoffice'
+            # Facebook:
+            #     icon: fab fa-facebook
+            #     url: 'https://facebook.com'
+            Twitter:
+                icon: fab fa-twitter
+                url: 'https://twitter.com/techbookfest'
+            # Dribbble:
+            #     icon: fab fa-dribbble
+            #     url: 'https://dribbble.com'
+            RSS:
+                icon: fas fa-rss
+                url: /
+    -
+        # Widget name
+        type: toc
+        # Where should the widget be placed, left or right
+        position: left
+    -
+        # Widget name
+        type: links
+        # Where should the widget be placed, left or right
+        position: left
+        # Links to be shown in the links widget
+        links:
+            公式サイト: https://techbookfest.org/
+            技術書典7: https://techbookfest.org/event/tbf07
+            技術書典6: https://techbookfest.org/event/tbf06
+            技術書典5: https://techbookfest.org/event/tbf05
+            技術書典4: https://techbookfest.org/event/tbf04
+            技術書典3: https://techbookfest.org/event/tbf03
+            超技術書典: https://techbookfest.org/event/cho01
+            技術書典2: https://techbookfest.org/event/tbf02
+            技術書典: https://techbookfest.org/tbf01
+    # -
+    #     # Widget name
+    #     type: category
+    #     # Where should the widget be placed, left or right
+    #     position: left
+    -
+        # Widget name
+        type: tagcloud
+        # Where should the widget be placed, left or right
+        position: left
+    -
+        # Widget name
+        type: recent_posts
+        # Where should the widget be placed, left or right
+        position: right
+    -
+        # Widget name
+        type: tag
+        # Where should the widget be placed, left or right
+        position: right
+    -
+        # Widget name
+        type: archive
+        # Where should the widget be placed, left or right
+        position: right
+# Other plugin settings
+plugins:
+    # Enable page animations
+    animejs: true
+    # Enable the lightGallery and Justified Gallery plugins
+    # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/gallery-plugin/
+    gallery: true
+    # Enable the Outdated Browser plugin
+    # http://outdatedbrowser.com/
+    outdated-browser: true
+    # Enable the MathJax plugin
+    # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/mathjax-plugin/
+    mathjax: true
+    # Show the back to top button on mobile devices
+    back-to-top: true
+    # Google Analytics plugin settings
+    # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Google-Analytics
+    google-analytics:
+        # Google Analytics tracking id
+        tracking_id: UA-75502922-3
+    # Baidu Analytics plugin settings
+    # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Baidu-Analytics
+    # baidu-analytics:
+    #     # Baidu Analytics tracking id
+    #     tracking_id: 
+    # Hotjar user feedback plugin
+    # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Hotjar
+    # hotjar:
+    #     # Hotjar site id
+    #     site_id: 
+    # Show a loading progress bar at top of the page
+    progressbar: true
+    # Show the copy button in the highlighted code area
+    # clipboard: true
+    # BuSuanZi site/page view counter
+    # https://busuanzi.ibruce.info
+    # busuanzi: false
+# CDN provider settings
+# https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
+providers:
+    # Name or URL of the JavaScript and/or stylesheet CDN provider
+    cdn: jsdelivr
+    # Name or URL of the webfont CDN provider
+    fontcdn: google
+    # Name or URL of the webfont Icon CDN provider
+    iconcdn: fontawesome
