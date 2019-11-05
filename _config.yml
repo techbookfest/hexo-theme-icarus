@@ -26,8 +26,8 @@ navbar:
     menu:
         # Home: /
         Archives: /archives
-        サークル参加😺: https://techbookfest.org/event/tbf07#requirements
-        技術書典7 9/22: https://techbookfest.org/event/tbf07
+        サークル参加😺: https://techbookfest.org/event/tbf08#requirements
+        技術書典8 2/29,3/1: https://techbookfest.org/event/tbf08
         # Categories: /categories
         # Tags: /tags
         # About: /about
@@ -125,7 +125,7 @@ widgets:
         # Title of the author to be shown in the profile widget
         author_title: 運営事務局
         # Author's current location to be shown in the profile widget
-        location: 9/22 サンシャインシティ # 文化会館ビル2/3F 展示ホールC/D
+        location: 2/29,3/1 サンシャインシティ # 文化会館ビル2F 展示ホールD
         # Path or URL to the avatar to be shown in the profile widget
         avatar: /css/images/tbf-icon.svg
         # Email address for the Gravatar to be shown in the profile widget
@@ -164,6 +164,7 @@ widgets:
         # Links to be shown in the links widget
         links:
             公式サイト: https://techbookfest.org/
+            技術書典8: https://techbookfest.org/event/tbf08
             技術書典7: https://techbookfest.org/event/tbf07
             技術書典6: https://techbookfest.org/event/tbf06
             技術書典5: https://techbookfest.org/event/tbf05
