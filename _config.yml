@@ -27,7 +27,7 @@ navbar:
         # Home: /
         Archives: /archives
         サークル参加😺: https://techbookfest.org/event/tbf11#requirements
-        技術書典11（7/10-7/25）: https://techbookfest.org/event/tbf11
+        技術書典11（オンライン：7/10-7/25、オフライン：7/11）: https://techbookfest.org/event/tbf11
         # Categories: /categories
         # Tags: /tags
         # About: /about
@@ -125,7 +125,7 @@ widgets:
         # Title of the author to be shown in the profile widget
         author_title: 運営事務局
         # Author's current location to be shown in the profile widget
-        location: 7/10-7/25 オンライン
+        location: 7/10-7/25 オンライン、7/11 オフライン
         # Path or URL to the avatar to be shown in the profile widget
         avatar: /css/images/tbf-icon.svg
         # Email address for the Gravatar to be shown in the profile widget
