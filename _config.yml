@@ -125,7 +125,7 @@ widgets:
         # Title of the author to be shown in the profile widget
         author_title: 運営事務局
         # Author's current location to be shown in the profile widget
-        location: 1/22-1/30 オンライン
+        location: 5/20-6/4 オンライン、5/21 オフライン
         # Path or URL to the avatar to be shown in the profile widget
         avatar: /css/images/tbf-icon.svg
         # Email address for the Gravatar to be shown in the profile widget
@@ -164,6 +164,8 @@ widgets:
         # Links to be shown in the links widget
         links:
             公式サイト: https://techbookfest.org/            
+            技術書典14: https://techbookfest.org/event/tbf14
+            技術書典13: https://techbookfest.org/event/tbf13
             技術書典12: https://techbookfest.org/event/tbf12
             技術書典11: https://techbookfest.org/event/tbf11
             技術書典10: https://techbookfest.org/event/tbf10
