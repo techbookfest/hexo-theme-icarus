@@ -26,8 +26,8 @@ navbar:
     menu:
         # Home: /
         Archives: /archives
-        サークル参加😺: https://techbookfest.org/event/tbf16#requirements
-        技術書典16（オンライン：5/25-6/9、オフライン：5/26）: https://techbookfest.org/event/tbf16
+        サークル参加😺: https://techbookfest.org/event/tbf17#requirements
+        技術書典17（オンライン：11/2-11/17、オフライン：11/3）: https://techbookfest.org/event/tbf17
         # Categories: /categories
         # Tags: /tags
         # About: /about
@@ -125,7 +125,7 @@ widgets:
         # Title of the author to be shown in the profile widget
         author_title: 運営事務局
         # Author's current location to be shown in the profile widget
-        location: 5/25-6/9 オンライン、5/26 オフライン
+        location: 11/2-11/17 オンライン、11/3 オフライン
         # Path or URL to the avatar to be shown in the profile widget
         avatar: /css/images/tbf-icon.svg
         # Email address for the Gravatar to be shown in the profile widget
@@ -164,6 +164,7 @@ widgets:
         # Links to be shown in the links widget
         links:
             公式サイト: https://techbookfest.org/            
+            技術書典17: https://techbookfest.org/event/tbf17
             技術書典16: https://techbookfest.org/event/tbf16
             技術書典15: https://techbookfest.org/event/tbf15
             技術書典14: https://techbookfest.org/event/tbf14
